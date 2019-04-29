@@ -3,7 +3,8 @@
 require "pry"
 
 def key_for_min_value(name_hash)
-  valHold = 1000000
+  valHold = nil
+  keyHold = nil
   name_hash.each do |name, value|
     if valHold > value
       valHold = value
