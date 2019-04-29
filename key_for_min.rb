@@ -11,5 +11,5 @@ def key_for_min_value(name_hash)
       keyHold = name
     end
   end
-  return name_hash.key(valHold)
+  return keyHold
 end
